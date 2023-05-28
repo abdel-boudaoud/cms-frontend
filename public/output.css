@@ -522,6 +522,241 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-\[85px\] {
-  font-size: 85px;
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mx-\[25px\] {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-amber-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(69 26 3 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FCF5EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 245 235 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'public\/rss\/pictures\/test\.png\'\)\] {
+  background-image: url('public/rss/pictures/test.png');
+}
+
+.bg-\[url\(\.\/rss\/pictures\/oslo-kommune-ny-logo\.png\.jpg\)\] {
+  background-image: url(./rss/pictures/oslo-kommune-ny-logo.png.jpg);
+}
+
+.bg-\[url\(\.\/rss\/pictures\/test\.png\)\] {
+  background-image: url(./rss/pictures/test.png);
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.p-\[5px\] {
+  padding: 5px;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.text-\[45px\] {
+  font-size: 45px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[25pxpx\] {
+  color: 25pxpx;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
