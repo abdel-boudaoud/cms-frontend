@@ -1,4 +1,8 @@
 @tailwind base;
 @tailwind components;
 
+
+.btn-hover{
+    @apply hover:bg-[#EDF0FF]
+}
 @tailwind utilities;
